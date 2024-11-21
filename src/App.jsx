@@ -12,7 +12,7 @@ function App() {
 
   async function searchCity(){
     const city = inputRef.current.value 
-    const key = "2fd0c143f8b9815576fb824e20a6840d"
+    const key = "Sua key aqui!!!!!"
 
     const url =`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&lang=pt_br&units=metric`
 
